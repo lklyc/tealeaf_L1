@@ -35,11 +35,11 @@ def check_win(plays,possible_wins)
     
     if (plays.include?(v[0])) && (plays.include?(v[1])) && (plays.include?(v[2]))
       return true
-    else
-      return false
     end
 
   end
+
+  return false
 
 end
 
